@@ -1,1 +1,127 @@
-(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,98406,(e,t,r)=>{"use strict";var n=e.r(71645),a=n&&"object"==typeof n&&"default"in n?n:{default:n},i=[],l=[];!function(e,t){if(e&&"undefined"!=typeof document){var r,n=!0===t.prepend?"prepend":"append",a=!0===t.singleTag,o="string"==typeof t.container?document.querySelector(t.container):document.getElementsByTagName("head")[0];if(a){var s=i.indexOf(o);-1===s&&(l[s=i.push(o)-1]={}),r=l[s]&&l[s][n]?l[s][n]:l[s][n]=c()}else r=c();65279===e.charCodeAt(0)&&(e=e.substring(1)),r.styleSheet?r.styleSheet.cssText+=e:r.appendChild(document.createTextNode(e))}function c(){var e=document.createElement("style");if(e.setAttribute("type","text/css"),t.attributes)for(var r=Object.keys(t.attributes),a=0;a<r.length;a++)e.setAttribute(r[a],t.attributes[r[a]]);var i="prepend"===n?"afterbegin":"beforeend";return o.insertAdjacentElement(i,e),e}}(".mrl-container {\n    background-color: rgba(0, 0, 0, 0.05);\n}\n",{}),t.exports={MatrixRainingLetters:function(e){var t=n.useRef(),r="mrl-"+e.key,i="mrl-container "+e.custom_class;return n.useEffect(function(){var r=setInterval(function(e,t){var r=e.current,n=r.getContext("2d");r.width=window.innerWidth,r.height=window.innerHeight;for(var a="アァカサタナハマヤャラワガザダバパイィキシチニヒミリヰギジヂビピウゥクスツヌフムユュルグズブヅプエェケセテネヘメレヱゲゼデベペオォコソトノホモヨョロヲゴゾドボポヴッンABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",i=r.width/16,l=[],o=0;o<i;o++)l[o]=1;return function(){n.fillStyle="rgba(0, 0, 0, 0.05)",n.fillRect(0,0,r.width,r.height),n.fillStyle=t||"#0F0",n.font="16px monospace";for(var e=0;e<l.length;e++){var i=a.charAt(Math.floor(Math.random()*a.length));n.fillText(i,16*e,16*l[e]),16*l[e]>r.height&&Math.random()>.975&&(l[e]=0),l[e]++}}}(t,e.color),30);return function(){return clearInterval(r)}},[e.color]),a.default.createElement(a.default.Fragment,null,a.default.createElement("canvas",{key:r,className:i,ref:t}))}}},59388,(e,t,r)=>{"use strict";t.exports=e.r(98406)},6976,e=>{"use strict";var t=e.i(43476),r=e.i(59388);function n(){return(0,t.jsxs)("div",{className:"h-dvh flex flex-col items-center justify-center",children:[(0,t.jsx)("div",{className:"text-4xl font-bold fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 animate-pulse",style:{color:"#39ff14",textShadow:"0 0 12px rgba(57,255,20,0.9)"},children:"404"}),(0,t.jsx)(r.MatrixRainingLetters,{})]})}e.s(["default",()=>n])}]);
+(globalThis.TURBOPACK || (globalThis.TURBOPACK = [])).push([
+  "object" == typeof document ? document.currentScript : void 0,
+  98406,
+  (e, t, r) => {
+    "use strict";
+    var n = e.r(71645),
+      a = n && "object" == typeof n && "default" in n ? n : { default: n },
+      i = [],
+      l = [];
+    (!(function (e, t) {
+      if (e && "undefined" != typeof document) {
+        var r,
+          n = !0 === t.prepend ? "prepend" : "append",
+          a = !0 === t.singleTag,
+          o =
+            "string" == typeof t.container
+              ? document.querySelector(t.container)
+              : document.getElementsByTagName("head")[0];
+        if (a) {
+          var s = i.indexOf(o);
+          (-1 === s && (l[(s = i.push(o) - 1)] = {}),
+            (r = l[s] && l[s][n] ? l[s][n] : (l[s][n] = c())));
+        } else r = c();
+        (65279 === e.charCodeAt(0) && (e = e.substring(1)),
+          r.styleSheet
+            ? (r.styleSheet.cssText += e)
+            : r.appendChild(document.createTextNode(e)));
+      }
+      function c() {
+        var e = document.createElement("style");
+        if ((e.setAttribute("type", "text/css"), t.attributes))
+          for (var r = Object.keys(t.attributes), a = 0; a < r.length; a++)
+            e.setAttribute(r[a], t.attributes[r[a]]);
+        var i = "prepend" === n ? "afterbegin" : "beforeend";
+        return (o.insertAdjacentElement(i, e), e);
+      }
+    })(".mrl-container {\n    background-color: rgba(0, 0, 0, 0.05);\n}\n", {}),
+      (t.exports = {
+        MatrixRainingLetters: function (e) {
+          var t = n.useRef(),
+            r = "mrl-" + e.key,
+            i = "mrl-container " + e.custom_class;
+          return (
+            n.useEffect(
+              function () {
+                var r = setInterval(
+                  (function (e, t) {
+                    var r = e.current,
+                      n = r.getContext("2d");
+                    ((r.width = window.innerWidth),
+                      (r.height = window.innerHeight));
+                    for (
+                      var a =
+                          "アァカサタナハマヤャラワガザダバパイィキシチニヒミリヰギジヂビピウゥクスツヌフムユュルグズブヅプエェケセテネヘメレヱゲゼデベペオォコソトノホモヨョロヲゴゾドボポヴッンABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
+                        i = r.width / 16,
+                        l = [],
+                        o = 0;
+                      o < i;
+                      o++
+                    )
+                      l[o] = 1;
+                    return function () {
+                      ((n.fillStyle = "rgba(0, 0, 0, 0.05)"),
+                        n.fillRect(0, 0, r.width, r.height),
+                        (n.fillStyle = t || "#0F0"),
+                        (n.font = "16px monospace"));
+                      for (var e = 0; e < l.length; e++) {
+                        var i = a.charAt(Math.floor(Math.random() * a.length));
+                        (n.fillText(i, 16 * e, 16 * l[e]),
+                          16 * l[e] > r.height &&
+                            Math.random() > 0.975 &&
+                            (l[e] = 0),
+                          l[e]++);
+                      }
+                    };
+                  })(t, e.color),
+                  30,
+                );
+                return function () {
+                  return clearInterval(r);
+                };
+              },
+              [e.color],
+            ),
+            a.default.createElement(
+              a.default.Fragment,
+              null,
+              a.default.createElement("canvas", {
+                key: r,
+                className: i,
+                ref: t,
+              }),
+            )
+          );
+        },
+      }));
+  },
+  59388,
+  (e, t, r) => {
+    "use strict";
+    t.exports = e.r(98406);
+  },
+  6976,
+  (e) => {
+    "use strict";
+    var t = e.i(43476),
+      r = e.i(59388);
+    function n() {
+      return (0, t.jsxs)("div", {
+        className: "h-dvh flex flex-col items-center justify-center",
+        children: [
+          (0, t.jsx)("div", {
+            className:
+              "text-4xl font-bold fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 animate-pulse",
+            style: {
+              color: "#39ff14",
+              textShadow: "0 0 12px rgba(57,255,20,0.9)",
+            },
+            children: "404",
+          }),
+          (0, t.jsx)(r.MatrixRainingLetters, {}),
+        ],
+      });
+    }
+    e.s(["default", () => n]);
+  },
+]);
